@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="02.css">
+    <script sre="01.js"></script>
+</head>
+<body>
+    <h1>Insert data</h1>
+
+    <form action="/action_page.php">
+        <label for="fname">ชื่อ:</label><br>
+        <input tybe="text" id="fname" name="fname" value=""><br>
+            <label for="lname">นามสกุล:</label><br>
+            <input tybe="text" id="lname" name="lname" value=""><br> <br>
+            <label>เพศ</label>
+            <select id="gender">
+            <option value="a">ไม่ระบุ</option>
+            <option value="b">ชาย</option>
+            <option value="c">หญิง</option>
+            </section>
+            <br>
+            <label for="dob">วันเกิด</label>
+            <br>
+            <input type="date" id="dob" name="dob" required><br>
+            <br>
+            <br><br>
+            <input type="button" value="Add" onclink="submitForm()">
+        
+        </label>
+    </form>
+    <div id="result"></div>
+    </body>
+</html>
